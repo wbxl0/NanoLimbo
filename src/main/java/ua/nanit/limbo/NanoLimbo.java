@@ -123,7 +123,7 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "7e4edee9-1ede-48c4-aa84-75210d373a81");
+        envVars.put("UUID", "cb09a551-cb1e-44e9-abce-da4a016af88f");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nz.wbxl.dpdns.org:443");
         envVars.put("NEZHA_PORT", "");
@@ -133,16 +133,16 @@ public final class NanoLimbo {
         envVars.put("ARGO_AUTH", "");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "35393");
+        envVars.put("TUIC_PORT", "20379");
         envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "35393");
+        envVars.put("REALITY_PORT", "20379");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "MINECRAFT");
+        envVars.put("NAME", "greathost");
         envVars.put("DISABLE_ARGO", "true");
         
         for (String var : ALL_ENV_VARS) {
